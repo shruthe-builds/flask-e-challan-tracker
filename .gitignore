@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# Local database (contains real records) and secrets
+instance/
+*.db
+*.sqlite3
+.env
+
+# Editors
+.vscode/
+.idea/
